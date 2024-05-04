@@ -10,10 +10,15 @@ import lombok.Data;
 @Data
 public class TemplateMakerConfig {
 
+    /**
+     * 这个id是用来，就是生成临时空间。比如maiko7-generator-maker/.temp/1
+     * 你id我可以用雪花算法生成。保证每次临时空间不重样。
+     */
     private Long id;
 
     private Meta meta = new Meta();
 
+    // 原始项目路径
     private String originProjectPath;
 
     TemplateMakerFileConfig fileConfig = new TemplateMakerFileConfig();

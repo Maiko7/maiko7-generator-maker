@@ -5,6 +5,9 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+/**
+ * 文件过滤、文件分组
+ */
 @Data
 public class TemplateMakerFileConfig {
 
@@ -14,6 +17,7 @@ public class TemplateMakerFileConfig {
 
     @NoArgsConstructor
     @Data
+    // 文件过滤
     public static class FileInfoConfig {
 
         private String path;

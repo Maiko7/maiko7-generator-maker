@@ -19,7 +19,7 @@ public class FileFilter {
      * 对某个文件或目录进行过滤，返回文件列表
      *
      * @param filePath
-     * @param fileFilterConfigList
+     * @param fileFilterConfigList 过滤条件
      * @return
      */
     public static List<File> doFilter(String filePath, List<FileFilterConfig> fileFilterConfigList) {
@@ -38,27 +38,42 @@ public class FileFilter {
      * @return 是否保留
      */
     public static boolean doSingleFileFilter(List<FileFilterConfig> fileFilterConfigList, File file) {
+        /**
+         * 假设有一个名为"example.txt"的文件，内容为"Hello, world!"
+         * 则下面fileName返回的是example.txt。
+         *
+         * FileUtil.readUtf8String(file) 是一个用于读取文件内容的方法。
+         * 它接受一个文件对象作为参数，并返回文件的内容作为字符串。
+         * 如果文件不存在，或者读取失败，则返回空字符串。这里返回的是Hello, world!
+         */
+
+        // 他这里获取文件名称和文件内容，就是为了后续判断是按文件名称还是文件内容过滤
         String fileName = file.getName();
         String fileContent = FileUtil.readUtf8String(file);
 
         // 所有过滤器校验结束的结果
         boolean result = true;
 
+        // 没有过滤规则那肯定是直接返回了，也就是通过所有校验
         if (CollUtil.isEmpty(fileFilterConfigList)) {
             return true;
         }
 
         for (FileFilterConfig fileFilterConfig : fileFilterConfigList) {
+            // 获取过滤规则
             String range = fileFilterConfig.getRange();
             String rule = fileFilterConfig.getRule();
             String value = fileFilterConfig.getValue();
 
+            // 看他是文件名称过滤还是文件内容过滤
             FileFilterRangeEnum fileFilterRangeEnum = FileFilterRangeEnum.getEnumByValue(range);
+            // 不是文件名称过滤也不是文件内容过滤
             if (fileFilterRangeEnum == null) {
                 continue;
             }
 
             // 要过滤的原内容
+            // 他这里提前过滤fileName，后面判断文件过滤规则的时候，就不用再一个一个去判断content了
             String content = fileName;
             switch (fileFilterRangeEnum) {
                 case FILE_NAME:
@@ -70,12 +85,14 @@ public class FileFilter {
                 default:
             }
 
+            // 看看按什么文件过滤规则去过滤
             FileFilterRuleEnum filterRuleEnum = FileFilterRuleEnum.getEnumByValue(rule);
             if (filterRuleEnum == null) {
                 continue;
             }
             switch (filterRuleEnum) {
                 case CONTAINS:
+                    // 你这里如果不是前面content判断了，你这里每一层case都要写个if来判断
                     result = content.contains(value);
                     break;
                 case STARTS_WITH:
