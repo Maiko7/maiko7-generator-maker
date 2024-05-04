@@ -1,4 +1,4 @@
-package com.yupi.cli.command;
+package com.maiko7.cli.command;
 
 import cn.hutool.core.io.FileUtil;
 import picocli.CommandLine.Command;

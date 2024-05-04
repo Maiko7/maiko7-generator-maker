@@ -1,6 +1,6 @@
-package com.yupi.springbootinit.exception;
+package com.maiko7.springbootinit.exception;
 
-import com.yupi.springbootinit.common.ErrorCode;
+import com.maiko7.springbootinit.common.ErrorCode;
 
 /**
  * 自定义异常类

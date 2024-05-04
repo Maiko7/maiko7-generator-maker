@@ -6,7 +6,7 @@
         "path": "src/main/resources/application.yml"
       },
       {
-        "path": "src/main/java/com/yupi/springbootinit/MainApplication.java"
+        "path": "src/main/java/com/maiko7/springbootinit/MainApplication.java"
       },
       {
         "path": "pom.xml"

@@ -1,4 +1,4 @@
-package com.yupi.acm;
+package com.maiko7.acm;
 
 import java.util.Scanner;
 

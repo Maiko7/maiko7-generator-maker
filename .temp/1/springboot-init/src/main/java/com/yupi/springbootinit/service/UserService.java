@@ -1,9 +1,9 @@
-package com.yupi.springbootinit.service;
+package com.maiko7.springbootinit.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.yupi.springbootinit.model.dto.user.UserQueryRequest;
-import com.yupi.springbootinit.model.entity.User;
+import com.maiko7.springbootinit.model.dto.user.UserQueryRequest;
+import com.maiko7.springbootinit.model.entity.User;
 
 import javax.servlet.http.HttpServletRequest;
 

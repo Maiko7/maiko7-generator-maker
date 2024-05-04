@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.model.entity;
+package com.maiko7.springbootinit.model.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;

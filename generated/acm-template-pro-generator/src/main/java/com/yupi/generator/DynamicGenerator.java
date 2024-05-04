@@ -1,4 +1,4 @@
-package com.yupi.generator;
+package com.maiko7.generator;
 
 import cn.hutool.core.io.FileUtil;
 import freemarker.template.Configuration;

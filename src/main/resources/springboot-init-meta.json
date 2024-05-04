@@ -2,7 +2,7 @@
   "name": "springboot-init-generator",
   "description": "Spring Boot 模板项目生成器",
   "fileConfig": {
-    "sourceRootPath": "C:/code/yuzi-generator/yuzi-generator-maker/.temp/1/springboot-init",
+    "sourceRootPath": "C:/code/maiko7-generator/maiko7-generator-maker/.temp/1/springboot-init",
     "files": [
       {
         "type": "group",
@@ -11,20 +11,20 @@
         "groupName": "帖子文件组",
         "files": [
           {
-            "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostAddRequest.java.ftl",
-            "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostAddRequest.java",
+            "inputPath": "src/main/java/com/maiko7/springbootinit/model/dto/post/PostAddRequest.java.ftl",
+            "outputPath": "src/main/java/com/maiko7/springbootinit/model/dto/post/PostAddRequest.java",
             "type": "file",
             "generateType": "dynamic"
           },
           {
-            "inputPath": "src/main/java/com/yupi/springbootinit/model/entity/Post.java.ftl",
-            "outputPath": "src/main/java/com/yupi/springbootinit/model/entity/Post.java",
+            "inputPath": "src/main/java/com/maiko7/springbootinit/model/entity/Post.java.ftl",
+            "outputPath": "src/main/java/com/maiko7/springbootinit/model/entity/Post.java",
             "type": "file",
             "generateType": "dynamic"
           },
           {
-            "inputPath": "src/main/java/com/yupi/springbootinit/service/impl/PostServiceImpl.java.ftl",
-            "outputPath": "src/main/java/com/yupi/springbootinit/service/impl/PostServiceImpl.java",
+            "inputPath": "src/main/java/com/maiko7/springbootinit/service/impl/PostServiceImpl.java.ftl",
+            "outputPath": "src/main/java/com/maiko7/springbootinit/service/impl/PostServiceImpl.java",
             "type": "file",
             "generateType": "dynamic"
           },
@@ -35,46 +35,46 @@
             "generateType": "dynamic"
           },
           {
-            "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostUpdateRequest.java.ftl",
-            "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostUpdateRequest.java",
+            "inputPath": "src/main/java/com/maiko7/springbootinit/model/dto/post/PostUpdateRequest.java.ftl",
+            "outputPath": "src/main/java/com/maiko7/springbootinit/model/dto/post/PostUpdateRequest.java",
             "type": "file",
             "generateType": "dynamic"
           },
           {
-            "inputPath": "src/main/java/com/yupi/springbootinit/controller/PostController.java.ftl",
-            "outputPath": "src/main/java/com/yupi/springbootinit/controller/PostController.java",
+            "inputPath": "src/main/java/com/maiko7/springbootinit/controller/PostController.java.ftl",
+            "outputPath": "src/main/java/com/maiko7/springbootinit/controller/PostController.java",
             "type": "file",
             "generateType": "dynamic"
           },
           {
-            "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostQueryRequest.java.ftl",
-            "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostQueryRequest.java",
+            "inputPath": "src/main/java/com/maiko7/springbootinit/model/dto/post/PostQueryRequest.java.ftl",
+            "outputPath": "src/main/java/com/maiko7/springbootinit/model/dto/post/PostQueryRequest.java",
             "type": "file",
             "generateType": "dynamic"
           },
           {
-            "inputPath": "src/main/java/com/yupi/springbootinit/mapper/PostMapper.java.ftl",
-            "outputPath": "src/main/java/com/yupi/springbootinit/mapper/PostMapper.java",
+            "inputPath": "src/main/java/com/maiko7/springbootinit/mapper/PostMapper.java.ftl",
+            "outputPath": "src/main/java/com/maiko7/springbootinit/mapper/PostMapper.java",
             "type": "file",
             "generateType": "dynamic"
           },
           {
-            "inputPath": "src/main/java/com/yupi/springbootinit/service/PostService.java.ftl",
-            "outputPath": "src/main/java/com/yupi/springbootinit/service/PostService.java",
+            "inputPath": "src/main/java/com/maiko7/springbootinit/service/PostService.java.ftl",
+            "outputPath": "src/main/java/com/maiko7/springbootinit/service/PostService.java",
             "type": "file",
             "generateType": "dynamic"
           }
         ]
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/common/ErrorCode.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/common/ErrorCode.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/common/ErrorCode.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/common/ErrorCode.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/exception/BusinessException.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/exception/BusinessException.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/exception/BusinessException.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/exception/BusinessException.java",
         "type": "file",
         "generateType": "dynamic"
       },
@@ -85,45 +85,45 @@
         "generateType": "static"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/common/PageRequest.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/common/PageRequest.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/common/PageRequest.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/common/PageRequest.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/config/MyBatisPlusConfig.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/config/MyBatisPlusConfig.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/config/MyBatisPlusConfig.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/config/MyBatisPlusConfig.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/model/enums/UserRoleEnum.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/model/enums/UserRoleEnum.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/model/enums/UserRoleEnum.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/model/enums/UserRoleEnum.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/exception/GlobalExceptionHandler.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/exception/GlobalExceptionHandler.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/exception/GlobalExceptionHandler.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/exception/GlobalExceptionHandler.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/config/Knife4jConfig.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/config/Knife4jConfig.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/config/Knife4jConfig.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/config/Knife4jConfig.java",
         "type": "file",
         "generateType": "dynamic",
         "condition": "needDocs"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/service/impl/UserServiceImpl.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/service/impl/UserServiceImpl.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/service/impl/UserServiceImpl.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/service/impl/UserServiceImpl.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserRegisterRequest.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserRegisterRequest.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/model/dto/user/UserRegisterRequest.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/model/dto/user/UserRegisterRequest.java",
         "type": "file",
         "generateType": "dynamic"
       },
@@ -146,32 +146,32 @@
         "generateType": "static"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/common/DeleteRequest.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/common/DeleteRequest.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/common/DeleteRequest.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/common/DeleteRequest.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/constant/UserConstant.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/constant/UserConstant.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/constant/UserConstant.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/constant/UserConstant.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserQueryRequest.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserQueryRequest.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/model/dto/user/UserQueryRequest.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/model/dto/user/UserQueryRequest.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserAddRequest.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserAddRequest.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/model/dto/user/UserAddRequest.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/model/dto/user/UserAddRequest.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/MainApplication.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/MainApplication.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/MainApplication.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/MainApplication.java",
         "type": "file",
         "generateType": "dynamic"
       },
@@ -188,51 +188,51 @@
         "generateType": "static"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/model/entity/User.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/model/entity/User.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/model/entity/User.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/model/entity/User.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/common/ResultUtils.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/common/ResultUtils.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/common/ResultUtils.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/common/ResultUtils.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/mapper/UserMapper.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/mapper/UserMapper.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/mapper/UserMapper.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/mapper/UserMapper.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/config/CorsConfig.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/config/CorsConfig.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/config/CorsConfig.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/config/CorsConfig.java",
         "type": "file",
         "generateType": "dynamic",
         "condition": "needCors"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/exception/ThrowUtils.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/exception/ThrowUtils.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/exception/ThrowUtils.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/exception/ThrowUtils.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/service/.DS_Store",
-        "outputPath": "src/main/java/com/yupi/springbootinit/service/.DS_Store",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/service/.DS_Store",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/service/.DS_Store",
         "type": "file",
         "generateType": "static"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/controller/UserController.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/controller/UserController.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/controller/UserController.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/controller/UserController.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/common/BaseResponse.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/common/BaseResponse.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/common/BaseResponse.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/common/BaseResponse.java",
         "type": "file",
         "generateType": "dynamic"
       },
@@ -243,8 +243,8 @@
         "generateType": "static"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/config/JsonConfig.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/config/JsonConfig.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/config/JsonConfig.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/config/JsonConfig.java",
         "type": "file",
         "generateType": "dynamic"
       },
@@ -255,20 +255,20 @@
         "generateType": "static"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserUpdateRequest.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserUpdateRequest.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/model/dto/user/UserUpdateRequest.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/model/dto/user/UserUpdateRequest.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/service/UserService.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/service/UserService.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/service/UserService.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/service/UserService.java",
         "type": "file",
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserLoginRequest.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserLoginRequest.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/model/dto/user/UserLoginRequest.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/model/dto/user/UserLoginRequest.java",
         "type": "file",
         "generateType": "dynamic"
       },
@@ -279,8 +279,8 @@
         "generateType": "dynamic"
       },
       {
-        "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostEsDTO.java.ftl",
-        "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostEsDTO.java",
+        "inputPath": "src/main/java/com/maiko7/springbootinit/model/dto/post/PostEsDTO.java.ftl",
+        "outputPath": "src/main/java/com/maiko7/springbootinit/model/dto/post/PostEsDTO.java",
         "type": "file",
         "generateType": "dynamic",
         "condition": "needPost && needEs"
@@ -370,7 +370,7 @@
         "fieldName": "basePackage",
         "type": "String",
         "description": "基础包名",
-        "defaultValue": "com.yupi"
+        "defaultValue": "com.maiko7"
       },
       {
         "fieldName": "needRedis",

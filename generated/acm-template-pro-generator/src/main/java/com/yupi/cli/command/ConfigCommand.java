@@ -1,7 +1,7 @@
-package com.yupi.cli.command;
+package com.maiko7.cli.command;
 
 import cn.hutool.core.util.ReflectUtil;
-import com.yupi.model.DataModel;
+import com.maiko7.model.DataModel;
 import picocli.CommandLine.Command;
 
 import java.lang.reflect.Field;

@@ -1,14 +1,14 @@
-package com.yupi.springbootinit.service.impl;
+package com.maiko7.springbootinit.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yupi.springbootinit.common.ErrorCode;
-import com.yupi.springbootinit.exception.BusinessException;
-import com.yupi.springbootinit.mapper.UserMapper;
-import com.yupi.springbootinit.model.dto.user.UserQueryRequest;
-import com.yupi.springbootinit.model.entity.User;
-import com.yupi.springbootinit.model.enums.UserRoleEnum;
-import com.yupi.springbootinit.service.UserService;
+import com.maiko7.springbootinit.common.ErrorCode;
+import com.maiko7.springbootinit.exception.BusinessException;
+import com.maiko7.springbootinit.mapper.UserMapper;
+import com.maiko7.springbootinit.model.dto.user.UserQueryRequest;
+import com.maiko7.springbootinit.model.entity.User;
+import com.maiko7.springbootinit.model.enums.UserRoleEnum;
+import com.maiko7.springbootinit.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
@@ -16,7 +16,7 @@ import org.springframework.util.DigestUtils;
 
 import javax.servlet.http.HttpServletRequest;
 
-import static com.yupi.springbootinit.constant.UserConstant.USER_LOGIN_STATE;
+import static com.maiko7.springbootinit.constant.UserConstant.USER_LOGIN_STATE;
 
 /**
  * 用户服务实现
@@ -28,7 +28,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     /**
      * 盐值，混淆密码
      */
-    private static final String SALT = "yupi";
+    private static final String SALT = "maiko7";
 
     @Override
     public long userRegister(String userAccount, String userPassword, String checkPassword) {

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/yuzi-generator-maker.iml" filepath="$PROJECT_DIR$/yuzi-generator-maker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maiko7-generator-maker.iml" filepath="$PROJECT_DIR$/maiko7-generator-maker.iml" />
     </modules>
   </component>
 </project>

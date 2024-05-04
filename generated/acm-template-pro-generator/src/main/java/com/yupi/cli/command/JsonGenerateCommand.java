@@ -1,9 +1,9 @@
-package com.yupi.cli.command;
+package com.maiko7.cli.command;
 
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.json.JSONUtil;
-import com.yupi.generator.MainGenerator;
-import com.yupi.model.DataModel;
+import com.maiko7.generator.MainGenerator;
+import com.maiko7.model.DataModel;
 import lombok.Data;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;

@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.common;
+package com.maiko7.springbootinit.common;
 
 /**
  * 返回工具类

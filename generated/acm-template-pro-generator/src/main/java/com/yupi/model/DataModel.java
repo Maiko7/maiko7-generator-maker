@@ -1,4 +1,4 @@
-package com.yupi.model;
+package com.maiko7.model;
 
 import lombok.Data;
 
@@ -32,7 +32,7 @@ public class DataModel {
         /**
          * 作者注释
          */
-        public String author = "yupi";
+        public String author = "maiko7";
         /**
          * 输出信息
          */

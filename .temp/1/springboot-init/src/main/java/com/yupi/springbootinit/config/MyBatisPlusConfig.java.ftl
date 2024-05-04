@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * MyBatis Plus 配置
  *
- * @author https://github.com/liyupi
+ * @author https://github.com/limaiko7
  */
 @Configuration
 @MapperScan("${basePackage}.springbootinit.mapper")

@@ -1,6 +1,6 @@
-package com.yupi.generator;
+package com.maiko7.generator;
 
-import com.yupi.model.DataModel;
+import com.maiko7.model.DataModel;
 import freemarker.template.TemplateException;
 
 import java.io.File;
@@ -42,9 +42,9 @@ public class MainGenerator {
             outputPath = new File(outputRootPath, "README.md").getAbsolutePath();
             StaticGenerator.copyFilesByHutool(inputPath, outputPath);
         }
-        inputPath = new File(inputRootPath, "src/com/yupi/acm/MainTemplate.java.ftl").getAbsolutePath();
+        inputPath = new File(inputRootPath, "src/com/maiko7/acm/MainTemplate.java.ftl").getAbsolutePath();
 
-        outputPath = new File(outputRootPath, "src/com/yupi/acm/MainTemplate.java").getAbsolutePath();
+        outputPath = new File(outputRootPath, "src/com/maiko7/acm/MainTemplate.java").getAbsolutePath();
         DynamicGenerator.doGenerate(inputPath, outputPath, model);
     }
 }

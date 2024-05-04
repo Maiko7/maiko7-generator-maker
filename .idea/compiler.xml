@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="yuzi-generator-maker" />
+        <module name="maiko7-generator-maker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="yuzi-generator-maker" target="8" />
+      <module name="maiko7-generator-maker" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

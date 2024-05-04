@@ -1,6 +1,6 @@
 package ${basePackage}.generator;
 
-import com.yupi.model.DataModel;
+import com.maiko7.model.DataModel;
 import freemarker.template.TemplateException;
 
 import java.io.File;

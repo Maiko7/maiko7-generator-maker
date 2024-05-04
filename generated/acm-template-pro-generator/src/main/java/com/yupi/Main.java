@@ -1,6 +1,6 @@
-package com.yupi;
+package com.maiko7;
 
-import com.yupi.cli.CommandExecutor;
+import com.maiko7.cli.CommandExecutor;
 
 public class Main {
 

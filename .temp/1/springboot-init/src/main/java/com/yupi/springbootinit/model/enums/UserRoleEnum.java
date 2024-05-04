@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.model.enums;
+package com.maiko7.springbootinit.model.enums;
 
 /**
  * 用户角色枚举

@@ -3,7 +3,7 @@
   "fileConfig": {
     "files": [
       {
-        "path": "src/main/java/com/yupi/springbootinit/config/Knife4jConfig.java",
+        "path": "src/main/java/com/maiko7/springbootinit/config/Knife4jConfig.java",
         "condition": "needDocs"
       }
     ]

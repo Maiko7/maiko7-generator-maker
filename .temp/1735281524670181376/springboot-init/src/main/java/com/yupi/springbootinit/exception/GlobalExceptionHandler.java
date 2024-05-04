@@ -1,8 +1,8 @@
-package com.yupi.springbootinit.exception;
+package com.maiko7.springbootinit.exception;
 
-import com.yupi.springbootinit.common.BaseResponse;
-import com.yupi.springbootinit.common.ErrorCode;
-import com.yupi.springbootinit.common.ResultUtils;
+import com.maiko7.springbootinit.common.BaseResponse;
+import com.maiko7.springbootinit.common.ErrorCode;
+import com.maiko7.springbootinit.common.ResultUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

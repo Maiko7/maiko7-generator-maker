@@ -1,15 +1,15 @@
-package com.yupi.springbootinit.controller;
+package com.maiko7.springbootinit.controller;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.yupi.springbootinit.common.BaseResponse;
-import com.yupi.springbootinit.common.DeleteRequest;
-import com.yupi.springbootinit.common.ErrorCode;
-import com.yupi.springbootinit.common.ResultUtils;
-import com.yupi.springbootinit.exception.BusinessException;
-import com.yupi.springbootinit.exception.ThrowUtils;
-import com.yupi.springbootinit.model.dto.user.*;
-import com.yupi.springbootinit.model.entity.User;
-import com.yupi.springbootinit.service.UserService;
+import com.maiko7.springbootinit.common.BaseResponse;
+import com.maiko7.springbootinit.common.DeleteRequest;
+import com.maiko7.springbootinit.common.ErrorCode;
+import com.maiko7.springbootinit.common.ResultUtils;
+import com.maiko7.springbootinit.exception.BusinessException;
+import com.maiko7.springbootinit.exception.ThrowUtils;
+import com.maiko7.springbootinit.model.dto.user.*;
+import com.maiko7.springbootinit.model.entity.User;
+import com.maiko7.springbootinit.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;

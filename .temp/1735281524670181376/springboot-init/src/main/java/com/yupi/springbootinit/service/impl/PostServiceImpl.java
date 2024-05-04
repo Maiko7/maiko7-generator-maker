@@ -1,14 +1,14 @@
-package com.yupi.springbootinit.service.impl;
+package com.maiko7.springbootinit.service.impl;
 
 import cn.hutool.core.collection.CollectionUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yupi.springbootinit.mapper.PostMapper;
-import com.yupi.springbootinit.model.dto.post.PostEsDTO;
-import com.yupi.springbootinit.model.dto.post.PostQueryRequest;
-import com.yupi.springbootinit.model.entity.Post;
-import com.yupi.springbootinit.service.PostService;
+import com.maiko7.springbootinit.mapper.PostMapper;
+import com.maiko7.springbootinit.model.dto.post.PostEsDTO;
+import com.maiko7.springbootinit.model.dto.post.PostQueryRequest;
+import com.maiko7.springbootinit.model.entity.Post;
+import com.maiko7.springbootinit.service.PostService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;

@@ -1,9 +1,9 @@
-package com.yupi.cli;
+package com.maiko7.cli;
 
-import com.yupi.cli.command.GenerateCommand;
-import com.yupi.cli.command.JsonGenerateCommand;
-import com.yupi.cli.command.ListCommand;
-import com.yupi.cli.command.ConfigCommand;
+import com.maiko7.cli.command.GenerateCommand;
+import com.maiko7.cli.command.JsonGenerateCommand;
+import com.maiko7.cli.command.ListCommand;
+import com.maiko7.cli.command.ConfigCommand;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 

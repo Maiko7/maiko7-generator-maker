@@ -1,8 +1,8 @@
-package com.yupi.cli.command;
+package com.maiko7.cli.command;
 
 import cn.hutool.core.bean.BeanUtil;
-import com.yupi.generator.MainGenerator;
-import com.yupi.model.DataModel;
+import com.maiko7.generator.MainGenerator;
+import com.maiko7.model.DataModel;
 import lombok.Data;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
@@ -30,7 +30,7 @@ public class GenerateCommand implements Callable<Integer> {
     @Data
     public static class MainTemplateCommand implements Runnable {
         @Option(names = {"-a", "--author"}, arity = "0..1", description = "作者注释", interactive = true, echo = true)
-        private String author = "yupi";
+        private String author = "maiko7";
         @Option(names = {"-o", "--outputText"}, arity = "0..1", description = "输出信息", interactive = true, echo = true)
         private String outputText = "sum = ";
 

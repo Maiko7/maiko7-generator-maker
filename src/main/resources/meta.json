@@ -1,14 +1,14 @@
 {
   "name": "acm-template-pro-generator",
   "description": "ACM 示例模板生成器",
-  "basePackage": "com.yupi",
+  "basePackage": "com.maiko7",
   "version": "1.0",
-  "author": "yupi",
+  "author": "maiko7",
   "createTime": "2023-11-22",
   "fileConfig": {
     "inputRootPath": ".source/acm-template-pro",
     "outputRootPath": "generated",
-    "sourceRootPath": "C:/Users/73450/Desktop/yupi/yuzi-generator-master/yuzi-generator-demo-projects/acm-template-pro",
+    "sourceRootPath": "C:/Users/73450/Desktop/maiko7/maiko7-generator-master/maiko7-generator-demo-projects/acm-template-pro",
     "type": "dir",
     "files": [
       {
@@ -32,8 +32,8 @@
         ]
       },
       {
-        "inputPath": "src/com/yupi/acm/MainTemplate.java.ftl",
-        "outputPath": "src/com/yupi/acm/MainTemplate.java",
+        "inputPath": "src/com/maiko7/acm/MainTemplate.java.ftl",
+        "outputPath": "src/com/maiko7/acm/MainTemplate.java",
         "type": "file",
         "generateType": "dynamic"
       }
@@ -65,7 +65,7 @@
             "fieldName": "author",
             "type": "String",
             "description": "作者注释",
-            "defaultValue": "yupi",
+            "defaultValue": "maiko7",
             "abbr": "a"
           },
           {

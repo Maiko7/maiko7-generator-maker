@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.model.dto.post;
+package com.maiko7.springbootinit.model.dto.post;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

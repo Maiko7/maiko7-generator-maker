@@ -2,35 +2,35 @@
     "name": "acm-template-generator",
     "description": "ACM 示例模板生成器",
     "fileConfig": {
-        "sourceRootPath": "C:/Users/73450/Desktop/yupi/yuzi-generator-master/yuzi-generator-maker/.temp/1735281524670181376/springboot-init",
+        "sourceRootPath": "C:/Users/73450/Desktop/maiko7/maiko7-generator-master/maiko7-generator-maker/.temp/1735281524670181376/springboot-init",
         "files": [
             {
-                "inputPath": "src/main/java/com/yupi/springbootinit/common/ResultUtils.java.ftl",
-                "outputPath": "src/main/java/com/yupi/springbootinit/common/ResultUtils.java",
+                "inputPath": "src/main/java/com/maiko7/springbootinit/common/ResultUtils.java.ftl",
+                "outputPath": "src/main/java/com/maiko7/springbootinit/common/ResultUtils.java",
                 "type": "file",
                 "generateType": "dynamic"
             },
             {
-                "inputPath": "src/main/java/com/yupi/springbootinit/common/ErrorCode.java.ftl",
-                "outputPath": "src/main/java/com/yupi/springbootinit/common/ErrorCode.java",
+                "inputPath": "src/main/java/com/maiko7/springbootinit/common/ErrorCode.java.ftl",
+                "outputPath": "src/main/java/com/maiko7/springbootinit/common/ErrorCode.java",
                 "type": "file",
                 "generateType": "dynamic"
             },
             {
-                "inputPath": "src/main/java/com/yupi/springbootinit/common/DeleteRequest.java.ftl",
-                "outputPath": "src/main/java/com/yupi/springbootinit/common/DeleteRequest.java",
+                "inputPath": "src/main/java/com/maiko7/springbootinit/common/DeleteRequest.java.ftl",
+                "outputPath": "src/main/java/com/maiko7/springbootinit/common/DeleteRequest.java",
                 "type": "file",
                 "generateType": "dynamic"
             },
             {
-                "inputPath": "src/main/java/com/yupi/springbootinit/common/PageRequest.java.ftl",
-                "outputPath": "src/main/java/com/yupi/springbootinit/common/PageRequest.java",
+                "inputPath": "src/main/java/com/maiko7/springbootinit/common/PageRequest.java.ftl",
+                "outputPath": "src/main/java/com/maiko7/springbootinit/common/PageRequest.java",
                 "type": "file",
                 "generateType": "dynamic"
             },
             {
-                "inputPath": "src/main/java/com/yupi/springbootinit/common/BaseResponse.java.ftl",
-                "outputPath": "src/main/java/com/yupi/springbootinit/common/BaseResponse.java",
+                "inputPath": "src/main/java/com/maiko7/springbootinit/common/BaseResponse.java.ftl",
+                "outputPath": "src/main/java/com/maiko7/springbootinit/common/BaseResponse.java",
                 "type": "file",
                 "generateType": "dynamic"
             },
